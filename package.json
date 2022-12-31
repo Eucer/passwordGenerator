@@ -1,0 +1,17 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "description": "Password Generator public",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "author": "Germys G",
+  "license": "DUIyIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security"
+  }
+}
