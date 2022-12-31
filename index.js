@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-app.get('/', (req, res) => {
+app.get('/generator', (req, res) => {
   // Definimos la longitud de la contraseña a 8 caracteres
   const passwordLength = 23;
 
